@@ -100,3 +100,25 @@ theme: hexo-theme-indigo
 deploy:
   type: git
   repo: https://github.com/xufei-web/blog.git
+
+
+# hexo-generator-json-content
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: true
+    tags: true
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    author: false
